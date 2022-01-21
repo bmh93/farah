@@ -1,0 +1,29 @@
+
+.testimonials{
+    background-size: cover;
+    background-image: url('../images/testimonial-bg.jpg');
+    color: white;
+    position: relative;
+    height: 545px;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+}
+.testimonials .overlay{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(81, 173, 155,0.8);
+}
+.testimonials .container{
+    position: relative;
+    top: -63px;
+}
+
+
+.testimonials .content img {
+    width: 30%;
+    margin: auto;
+}

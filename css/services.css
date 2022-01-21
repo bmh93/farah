@@ -1,0 +1,132 @@
+/* navbar */
+*{
+    scroll-behavior: smooth;
+}
+.logo img {
+
+    width: 200px;
+}
+ .navbar-nav .nav-link{
+    color: #606060;
+    font-size: 20px;
+    padding: 10px 15px;
+    font-weight: bold;
+}
+.navbar-nav .nav-link:hover {
+    color: #51ad9b; 
+    }
+
+.navbar .navbar-toggler-icon {
+        background-image: url(../images/download.svg);
+
+}
+.navbar-toggler{
+    border: 1px solid #9e9e9e38;
+}
+.navbar{
+    background-color: white;
+    box-shadow: 0px 4px 6px -1px #dcdcdc;
+}
+/* slider */
+h2{
+    font-size: 33px;
+    color: #3dafa0;
+    padding: 5px 5px 5px 15px;
+    position: relative;
+    z-index: 14;
+    width: fit-content;
+        padding: 32px;
+}
+/*-----Services-------*/
+.services {
+    padding-top: 100px;
+    padding-bottom: 60px;
+    width: 100%;
+    background-image: url(../images/pattern.svg);
+    background-color: #f9f9f9;
+
+}
+.services .container{
+    padding: 0;
+}
+.services ul {
+    display: grid;
+    grid-template-columns: repeat(3,auto);
+    grid-row-gap: 40px;}
+
+.services ul li {
+    text-align: center;
+    list-style-type: none;
+}
+ @media (max-width: 768px){
+
+.services ul li {
+    width: 183px;
+    padding-bottom: 31px;}
+    .services ul {
+    display: grid;
+    grid-template-columns: repeat(2,auto);
+}
+}
+.services ul li svg {
+    width: 50%;
+    }
+.services ul li h3 {
+    width: 100%;
+    text-align: center;
+    color: #606161;
+    font-size: 18px;
+    margin: 30px 0px 0px 0px;
+}
+/*** ***/ 
+
+.footer {
+ 
+    background-image: url(../images/pattern.svg);
+    width: 100%;
+    height: 440px;
+    background-color: #334049;
+}
+.footer h1{
+color: white;
+padding-top: 50px;
+text-align: center;
+}
+.footer .btn {
+ background-color: #48b1ab;
+}
+.footer .media .icon span a {
+    color: white;
+    font-size: 22px;
+    padding-left: 10px;
+}
+.footer .media .row{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 176px;
+    align-items: flex-end;
+}
+
+.footer .copyright{
+    text-align: center;
+    color: white;
+    font-size: 12px;
+}
+.footer .copyright a {
+    color: white;
+}
+.btn {
+  text-transform: capitalize;
+    border-radius: 35px;
+    font-size: 20px;
+    text-align: center;
+    padding: 9px 30px;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    width: fit-content;
+    align-items: center;
+    margin: 30px auto;
+    transition: .5s;
+}
